@@ -21,7 +21,7 @@ import { EstadisticaTrabajoDia } from '../../Fichar/Components/EstadisticaTrabaj
 const today = () => moment(moment().format('YYYY-MM-DD')).valueOf();
 const ducationFormat = duration => {
   const time = moment.duration(duration);
-  return `${time.hours()} horas y ${time.minutes()} minutos.`;
+  return `${time.days()} Días ${time.hours()} horas y ${time.minutes()} minutos.`;
 };
 export function TrabajoRealizado() {
   const {
