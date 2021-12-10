@@ -90,6 +90,11 @@ export class Login extends Component {
                   Recuperar
                 </Link>
               </p>
+              <p>
+                <Link className="btn btn-link linkRegister" to="/signup">
+                  Registrate ahora
+                </Link>
+              </p>
             </form>
           </div>
         </div>

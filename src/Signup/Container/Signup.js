@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Login.css';
 import swal from 'sweetalert';
-import { Redirect } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
 import { firebaseApp, db } from '../../firebase/firebase';
 
 export class Signup extends Component {
@@ -142,6 +142,12 @@ export class Signup extends Component {
                   >
                     {inciarSesion ? 'Iniciar Sesion' : 'Cerrar Sesion'}
                   </button>
+                  <p>
+                    Si ya tienes una cuenta
+                    <Link className="btn btn-link" to="/">
+                      Inicia Sesión
+                    </Link>
+                  </p>
                 </form>
                 <div />
               </div>
