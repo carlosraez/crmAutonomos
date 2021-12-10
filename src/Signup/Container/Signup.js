@@ -102,7 +102,7 @@ export class Signup extends Component {
                       className="form-control"
                       onChange={this.handleChange}
                       id="name"
-                      placeholder="email@gmail.com"
+                      placeholder="Escribe tu nombre"
                     />
                   </div>
                   <div className="form-group">
