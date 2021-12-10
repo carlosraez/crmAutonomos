@@ -2,9 +2,12 @@ html,
 body,
 main,
 #root {
-  height: 100%;
-  width: 100%;
   background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 .headerNav {
